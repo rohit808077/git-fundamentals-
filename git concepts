@@ -1,0 +1,33 @@
+Git Branching Strategies for Business: In a business context, it's crucial to have well-defined branching strategies for collaboration and version control. Some popular strategies include:
+
+Feature Branch Workflow: Create a branch for each new feature or bug fix, work on it, and then merge it back into the main development branch (e.g., main or develop).
+
+Gitflow Workflow: This approach defines specific branches for different purposes, such as feature, develop, release, and master, each serving a distinct role in the software development lifecycle.
+
+GitHub Flow: A simplified workflow where every feature, bug fix, or improvement is worked on in its own branch, and then a pull request is opened for discussion and merging into the main branch.
+
+Git Revert & Git Reset:
+
+git revert: This command creates a new commit that undoes the changes introduced by a specific commit, effectively reverting it. It's a safe way to reverse changes while preserving the commit history.
+
+git reset: Reset is a more powerful command that can be used to move the branch pointer to a specific commit. It comes in three modes: soft (moves the branch pointer but leaves changes staged), mixed (unstages changes), and hard (discards changes).
+
+Git Merge & Rebase:
+
+git merge: Merging combines changes from one branch into another. It creates a new merge commit, which signifies the integration of changes. Merging is suitable for maintaining a clear and structured history.
+
+git rebase: Rebase allows you to move, alter, or combine a sequence of commits onto a new base commit. It results in a linear commit history but can lead to conflicts and should be used carefully in shared branches.
+
+Cherry Pick & Stash:
+
+git cherry-pick: This command lets you select specific commits from one branch and apply them to another branch. It's handy for pulling in isolated changes without merging entire branches.
+
+git stash: Stashing allows you to temporarily save changes that are not ready to be committed. This is useful when you need to switch branches or address an urgent issue without committing unfinished work.
+
+Git Pull/Push/Fetch:
+
+git pull: Pull is a combination of git fetch and git merge. It fetches changes from a remote repository and automatically merges them into the local branch. It's a quick way to update your branch.
+
+git push: Push is used to upload your local changes to a remote repository. It's how you share your work with others.
+
+git fetch: Fetch retrieves changes from a remote repository and updates your local tracking branches without merging. It's useful to review changes before merging them.
