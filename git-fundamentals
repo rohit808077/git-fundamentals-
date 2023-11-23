@@ -1,0 +1,9 @@
+git init: Initialize a new Git repository in your project directory.
+git add: Stage changes for the next commit.
+git status: Check the current status of your files.
+git commit -m: Commit your changes with a descriptive message.
+git config --global user.name and git config --global user.email: Set your name and email for Git commits.
+git restore: Discard changes in the working directory or staging area.
+git log: View the commit history.
+git clone: Create a local copy of a remote repository.
+Fork: On platforms like GitHub, forking allows you to clone another user's repository to your account. You can modify it without affecting the original repository. 
